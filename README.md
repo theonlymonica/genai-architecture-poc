@@ -1,12 +1,14 @@
 # GenAI Architecture PoC
 
-This is sample code demonstrating the use of Amazon Bedrock and Generative AI to simplify some daily tasks
+This is sample code demonstrating the use of Amazon Bedrock and Generative AI to simplify some daily tasks:
 
 1. Summarize a long document
 2. Compare two documents
-3. Insert text questions, images, or both to get a comprehensive description/or answer based on the image and/or question that was passed in.
+3. Insert text questions, images, or both to get a comprehensive description or answers or IaC code based on the architecture diagram and questions that was passed in.
 
 This repo comes with a basic frontend to help users stand up a proof of concept in just a few minutes.
+
+Part of this code is explained [here](https://letsmake.cloud/transforming-diagrams-into-code). It's also heavily inspired by another repo, which you can find [here](https://github.com/aws-samples/genai-quickstart-pocs).
 
 ## Prerequisites
 
@@ -46,7 +48,7 @@ profile_name=<AWS_CLI_PROFILE_NAME>
 save_folder=<PATH_TO_ROOT_OF_THIS_REPO>
 ```
 
-Please ensure that your AWS CLI Profile has access to Amazon Bedrock!
+Please ensure that your AWS CLI Profile has access to Amazon Bedrock.
 
 ## Step 3
 

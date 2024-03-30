@@ -7,7 +7,7 @@ from doc_summarizer import Chunk_and_Summarize
 import time
 
 # title of the streamlit app
-st.title(f""":rainbow[Architecture Diagram with Amazon Bedrock]""")
+st.title(f""":rainbow[GenAI Architecture PoC with Amazon Bedrock]""")
 
 # Insert containers separated into tabs:
 tab1, tab2, tab3 = st.tabs(["Document Summarizer", "Documents Comparison", "Architecture Diagram"])
